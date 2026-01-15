@@ -1,0 +1,3 @@
+C:value_C_new
+X:value_x
+D:value_d

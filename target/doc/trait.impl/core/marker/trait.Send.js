@@ -1,0 +1,9 @@
+(function() {
+    var implementors = Object.fromEntries([["lru_cache",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"struct\" href=\"lru_cache/persistence/struct.FilePersistence.html\" title=\"struct lru_cache::persistence::FilePersistence\">FilePersistence</a>",1,["lru_cache::persistence::FilePersistence"]],["impl&lt;K, V&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"struct\" href=\"lru_cache/cache/struct.Cache.html\" title=\"struct lru_cache::cache::Cache\">Cache</a>&lt;K, V&gt;<div class=\"where\">where\n    K: <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a>,\n    V: <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a>,</div>",1,["lru_cache::cache::Cache"]],["impl&lt;V&gt; <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a> for <a class=\"struct\" href=\"lru_cache/cache/struct.Element.html\" title=\"struct lru_cache::cache::Element\">Element</a>&lt;V&gt;<div class=\"where\">where\n    V: <a class=\"trait\" href=\"https://doc.rust-lang.org/1.91.1/core/marker/trait.Send.html\" title=\"trait core::marker::Send\">Send</a>,</div>",1,["lru_cache::cache::Element"]]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":57,"fragment_lengths":[1483]}
